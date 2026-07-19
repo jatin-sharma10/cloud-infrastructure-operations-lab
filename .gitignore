@@ -2,3 +2,15 @@
 *.key
 .env
 *.log
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+
+# Terraform variable values
+*.tfvars
+!*.tfvars.example
+*.tfvars
+*.tfvars >> .gitignore.tfvars.example
